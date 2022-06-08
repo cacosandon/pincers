@@ -18,9 +18,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "nokogiri", '~> 1.6'
-  spec.add_dependency "selenium-webdriver", "~> 3.141"
+  spec.add_dependency "selenium-webdriver"
 
-  spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", '~> 10.4'
   spec.add_development_dependency "rspec", '~> 3.1'
   spec.add_development_dependency "rspec-nc", '~> 0.2'
